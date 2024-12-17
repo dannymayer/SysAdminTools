@@ -24,7 +24,7 @@ GUID = 'e1cfc1ec-dfff-48ab-a0ce-9a869688f660'
 Author = 'Danny Mayer'
 
 # Company or vendor of this module
-CompanyName = 'Unknown'
+CompanyName = 'Mayer Media Co.'
 
 # Copyright statement for this module
 Copyright = '(c) Danny Mayer. All rights reserved.'
