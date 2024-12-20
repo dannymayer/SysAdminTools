@@ -2,7 +2,11 @@ function Get-DatedDirectory {
   <#
   .SYNOPSIS
 
+  Returns the file path of a dated directory
+
   .DESCRIPTION
+
+  Script accepts a target directory as a parameter and returns a string with the a dated sub-directory appended to the target directory. Script currently appends the current date as the subdirectory.
 
   .PARAMETER 
 
@@ -10,7 +14,6 @@ function Get-DatedDirectory {
 
   .NOTES
   #>
-  # TODO Add Parameters & CmdletBinding
 
   [CmdletBinding()]
   param(
