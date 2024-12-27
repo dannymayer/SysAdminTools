@@ -4,7 +4,9 @@ function Get-MailDnsInfo {
 
     .DESCRIPTION
 
-    .PARAMETER 
+    .PARAMETER DomainName
+
+    .PARAMETER DNSserver
 
     .EXAMPLE
 
