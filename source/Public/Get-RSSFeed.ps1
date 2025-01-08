@@ -16,8 +16,8 @@ function Get-RSSFeed {
     
     .NOTES
     #>
-    TODO: Add Parameters & CmdletBinding
-    TODO: Add support for reading RSS Feeds from csv file
+    # TODO: Add Parameters & CmdletBinding
+    # TODO: Add support for reading RSS Feeds from csv file
     $numberofitems = '5'
     $total = foreach ($item in Invoke-RestMethod -Uri http://powershellisfun.com/feed ) {
         [PSCustomObject]@{
